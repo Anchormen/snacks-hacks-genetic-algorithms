@@ -16,3 +16,7 @@ The idea of the challenge is to use adapt the code from https://github.com/NVlab
 This challenge is certainly not for the faint-of-hearted, so unless you know what you're doing, you should go for Challenge 1.
 
 Good luck!
+
+## More information
+
+Blog post providing a brief intro to genetic algorithms: https://towardsdatascience.com/introduction-to-genetic-algorithms-including-example-code-e396e98d8bf3
