@@ -51,4 +51,18 @@ cv.pack(expand=YES, fill=BOTH)
 btn_save = Button(text="save", command=save)
 btn_save.pack()
 
+# Phenotype hint...
+# points = [0,0,canvas_width,canvas_height/2, 0, canvas_height]
+# w.create_polygon(points, outline=python_green,
+#                  fill='yellow', width=3)
+
+# Getting raw pixel data might be slow in TK Inter, so SO suggests using images directly:
+# from PIL import Image
+# im = Image.open('dead_parrot.jpg') # Can be many different formats.
+# pix = im.load()
+# print im.size  # Get the width and hight of the image for iterating over
+# print pix[x,y]  # Get the RGBA Value of the a pixel of an image
+# pix[x,y] = value  # Set the RGBA Value of the image (tuple)
+# im.save('alive_parrot.png')  # Save the modified pixels as .png
+
 root.mainloop()
