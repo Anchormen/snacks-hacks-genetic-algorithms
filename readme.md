@@ -13,7 +13,7 @@ The second advanced level challenge makes use of tensorflow and the contents of 
 
 The idea of the challenge is to use adapt the code from https://github.com/NVlabs/stylegan/blob/master/pretrained_example.py to generate face phenotypes using either the input layer or activation in one of the hidden layers as genotypes. The fitness function should be based on similarity between a phenotype and a target face that we're trying to generate (for instance your own face).
 
-This challenge is certainly not for the faint-of-hearted, so unless you know what you're doing, you should go for Challenge 1.
+This challenge is certainly not for the faint-hearted, so unless you know what you're doing, you should go for Challenge 1.
 
 Good luck!
 
