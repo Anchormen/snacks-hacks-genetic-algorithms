@@ -15,13 +15,14 @@ import numpy as np
 from sortedcontainers import SortedList
 from PIL import Image, ImageDraw, ImageTk
 
+TARGET_IMAGE_PATH = "/home/jvlek/Desktop/anchormen-logomark-rgb.png"
 GENOME_SIZE = 8
 MIN_POLYGON_SIZE = 3
 MAX_POLYGON_SIZE = 9
 NUM_REPRODUCTIONS = 50
 POPULATION_SIZE = 300
 MAX_ITERATIONS = 10000
-EVOLUTION_PERIOD_MS = 10
+EVOLUTION_PERIOD_MS = 1
 UPDATE_INTERVAL = 10
 DRAW_MODE = 'RGBA'
 
@@ -140,7 +141,7 @@ class App:
 
 
 
-target_image = Image.open("/home/jvlek/Desktop/anchormen-logomark-rgb.png")
+target_image = Image.open(TARGET_IMAGE_PATH)
 
 environment = {
     "width": target_image.size[0],
